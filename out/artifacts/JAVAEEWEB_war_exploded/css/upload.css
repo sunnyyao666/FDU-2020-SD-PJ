@@ -1,0 +1,118 @@
+#head {
+    position: relative;
+    margin: 131px 90px 31px;
+    font-size: 50px;
+}
+
+#change{
+    margin:0 0 150px 300px;
+}
+
+#change div {
+    position: relative;
+    margin: 50px 280px;
+    top: 50px;
+    width: 400px;
+}
+
+#change textarea{
+    resize:none;
+    height:100px;
+}
+
+#change p{
+    color: red;
+    position: absolute;
+    width:350px;
+    left:370px;
+    top:10px;
+    font-size: 20px;
+    display: none;
+}
+
+#change input[type="text"]{
+    position: relative;
+    width: 300px;
+    padding: 14px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    vertical-align: middle;
+}
+
+#change textarea{
+    position: relative;
+    width: 345px;
+    padding: 14px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 4px 4px;
+    vertical-align: middle;
+}
+
+#change select{
+    position: relative;
+    width: 285px;
+    padding: 14px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0px 4px 4px 0px;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", serif;
+}
+
+#change button[type="button"] {
+    padding: 5px 15px;
+    background-color: #3385ff;
+    border: 0;
+    border-bottom: 1px solid #2d78f4;
+    font-size: 15px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 90px;
+}
+
+#changeButton{
+    position: absolute;
+    margin: 70px 320px;
+    letter-spacing: 1px;
+}
+
+#change button[type="button"]:hover {
+    background-color: #317ef3;
+    border-bottom: 1px solid #2868c8;
+}
+
+#change button[type="button"]:active {
+    background-color: #3075dc;
+}
+
+#change button[type="reset"] {
+    position: absolute;
+    margin: 70px 500px;
+    padding: 5px 20px;
+    background-color: #d9d9d9;
+    border: 0;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 80px;
+}
+
+#change button[type="reset"]:hover {
+    background-color: #c9c9c9;
+    border-bottom: 1px solid #bababa;
+}
+
+#change button[type="reset"]:active {
+    background-color: #bababa;
+}

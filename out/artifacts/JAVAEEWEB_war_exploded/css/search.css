@@ -1,0 +1,101 @@
+#head {
+    position: relative;
+    margin: 131px 90px 31px;
+    font-size: 50px;
+}
+
+#searchForm {
+    position: relative;
+    margin-left: 40%;
+}
+
+#searchContent{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border:2px solid;
+}
+
+#searchForm p{
+    margin:30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#result {
+    position: relative;
+    margin: 50px 200px;
+}
+
+#result td {
+    background-color: floralwhite;
+    padding: 20px;
+    border: 5px solid white;
+    width: 400px;
+    height:200px;
+}
+
+#result td .name {
+    position: relative;
+    margin: -150px 0 0 160px;
+    font-family: "Comic Sans MS";
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 250px;
+    font-size: 35px;
+    height: 50px;
+}
+
+#result td .author {
+    position: relative;
+    margin: 15px 0 0 160px;
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 250px;
+    font-size: 15px;
+}
+
+#result img{
+    width:150px;
+    height:150px;
+    position: relative;
+}
+
+#result td button {
+    padding: 5px 10px;
+    background-color: #3385ff;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 90px;
+    border: 1px outset #eeeeee;
+    position: relative;
+    margin: 40px 20px -7px 250px;
+}
+
+#result td button:hover {
+    background-color: #317ef3;
+}
+
+#result td button:active {
+    background-color: #3075dc;
+    border: 1px inset #eeeeee;
+}
+
+#result td .heat {
+    position: relative;
+    margin: -50px 0 0 250px;
+    color: red;
+}
+
+nav[aria-label="Page navigation"] {
+    position: relative;
+    margin:80px 0 40px 60px;
+    text-align: center;
+}

@@ -1,0 +1,303 @@
+body {
+    font-family: KaiTi, serif;
+    background-color: white;
+}
+
+header {
+    height: 90px;
+    color: white;
+    width: 100%;
+    min-width: 1500px;
+    background-color: black;
+    border-bottom: 1px solid darkgray;
+    z-index: 7;
+    position: fixed;
+    top: 0;
+}
+
+#title {
+    font-family: "Comic Sans MS", serif;
+    font-size: 40px;
+    position: absolute;
+    margin: 21px 9px 5px 10px;
+}
+
+#slogan {
+    position: absolute;
+    margin: 50px 90px 5px 150px;
+}
+
+#navigator {
+    position: absolute;
+    margin: 30px 90px 5px 450px;
+    font-size: 30px;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: yellow;
+}
+
+#navigator span.now {
+    color: aqua;
+}
+
+nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 21px 50px 5px 0;
+    font-size: 20px;
+}
+
+.popup {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 7;
+    display: none;
+}
+
+.popup:target {
+    display: block;
+}
+
+.input-group-addon {
+    padding: 15px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 20px;
+    vertical-align: middle;
+    border-right: 0;
+    border-radius: 4px 0 0 4px;
+    display: inline;
+}
+
+#log-in-content {
+    width: 600px;
+    height: 550px;
+    margin: 100px auto;
+    background-color: floralwhite;
+}
+
+.popup .title {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    font-weight: bold;
+    color: #555;
+}
+
+.message {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.popup form p {
+    color: red;
+    position: absolute;
+    width: 350px;
+    left: 270px;
+    top: 10px;
+    font-size: 20px;
+    display: none;
+}
+
+#log-in-content div {
+    position: relative;
+    margin: 50px 180px;
+    top: 50px;
+    width: 400px;
+}
+
+.popup input[type="text"], input[type="password"] {
+    position: relative;
+    width: 200px;
+    padding: 14px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    vertical-align: middle;
+}
+
+#PINImage1, #PINImage2 {
+    vertical-align: middle;
+}
+
+.popup button[type="button"] {
+    position: absolute;
+    margin: 70px 170px;
+    padding: 5px 20px;
+    background-color: #3385ff;
+    border: 0;
+    border-bottom: 1px solid #2d78f4;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.popup button[type="button"]:hover {
+    background-color: #317ef3;
+    border-bottom: 1px solid #2868c8;
+}
+
+.popup button[type="button"]:active {
+    background-color: #3075dc;
+}
+
+.popup button[type="reset"] {
+    position: absolute;
+    margin: 70px 350px;
+    padding: 5px 20px;
+    background-color: #d9d9d9;
+    border: 0;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.popup button[type="reset"]:hover {
+    background-color: #c9c9c9;
+    border-bottom: 1px solid #bababa;
+}
+
+.popup button[type="reset"]:active {
+    background-color: #bababa;
+}
+
+#register-content {
+    width: 800px;
+    height: 750px;
+    margin: 100px auto;
+    background-color: floralwhite;
+}
+
+#register-content div {
+    position: relative;
+    margin: 40px 200px;
+    top: 50px;
+    width: 400px;
+}
+
+#register-content button[type="button"] {
+    margin: 70px 250px;
+}
+
+#register-content button[type="reset"] {
+    margin: 70px 440px;
+}
+
+#password-check {
+    position: relative;
+    top: 50px;
+    left: 220px;
+    display: none;
+}
+
+#lv1, #lv2, #lv3 {
+    height: 40px;
+    width: 70px;
+    margin-left: 3px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#drop #username::before {
+    position: fixed;
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+
+#drop #username::before {
+    content: "";
+    border-width: 0 8px 10px 8px;
+    border-style: solid;
+    border-color: transparent transparent #e1e1e1 transparent;
+    top: 45px;
+    margin-left: 10px;
+}
+
+
+#drop:hover #username::before {
+    opacity: 1;
+}
+
+#drop {
+    display: inline-block;
+}
+
+#dropDownList {
+    position: fixed;
+    top: 55px;
+    right: 50px;
+    font-family: KaiTi, serif;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#dropDownList td {
+    font-size: 30px;
+    position: relative;
+    padding: 5px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+#dropDownList td a {
+    color: black;
+}
+
+#dropDownList td a.now {
+    color: #b605b6;
+}
+
+#dropDownList td a:hover {
+    color: yellow;
+}
+
+#drop:hover #dropDownList {
+    opacity: 1;
+    visibility: visible;
+}
+
+footer {
+    height: 30px;
+    color: white;
+    width: 100%;
+    min-width: 1500px;
+    background-color: black;
+    border-top: 1px solid darkgray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 7;
+}

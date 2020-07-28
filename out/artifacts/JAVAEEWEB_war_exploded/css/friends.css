@@ -1,0 +1,95 @@
+#head {
+    position: relative;
+    margin: 131px 90px 31px;
+    font-size: 50px;
+}
+
+#searchForm {
+    position: relative;
+    margin-left: 40%;
+}
+
+#searchContent {
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    border: 2px solid;
+}
+
+#content {
+    position: relative;
+    width: 1150px;
+    margin: 30px 300px 180px;
+}
+
+#content div {
+    position: relative;
+    margin: 10px;
+    width: 1150px;
+    border: 1px solid #eeeeee;
+}
+
+#content div .title {
+    color: #b5b5b5;
+    margin: 10px;
+}
+
+#content button {
+    position: relative;
+    margin: 6px 0;
+    padding: 5px 20px;
+    background-color: #3385ff;
+    border: 1px outset #eeeeee;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 80px;
+}
+
+#content button:hover {
+    background-color: #317ef3;
+}
+
+#content button:active {
+    background-color: #3075dc;
+    border: 1px inset #eeeeee;
+}
+
+
+#content table {
+    border: 2px double black;
+    font-size: 21px;
+    margin: 20px 50px;
+}
+
+#content table th {
+    text-align: center;
+    padding: 5px;
+    border: 2px double black;
+}
+
+#content table td {
+    padding: 6px 35px;
+    border: 2px double black;
+    text-align: center;
+}
+
+#mine {
+    background-color: floralwhite;
+}
+
+#showFavorites {
+    font-size: 20px;
+    margin: 20px;
+    color:blue;
+}
+
+#invite {
+    background-color: #ffd7c8;
+}
+
+#invited {
+    background-color: #d1ffa0;
+}
